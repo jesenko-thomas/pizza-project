@@ -32,35 +32,109 @@ input.form-control {
     background-color: white;
 }
 .pizzaimg {
-    position: relative;
-    left: 10%;
-    z-index: 1;
+
 }
 
 .welcome2 {
-    z-index: 2;
     opacity: 70%;
     background-color: white;
-    position: relative;
-    top: -215px;
-    padding: 5px;
+   justify-content: center;
+
 }
 
 .welcome3 {
-    position: relative;
-    right: -650px;
+
 }
 
 .byop {
-    display: block;
+    padding-left: 50px;
+    padding-top: 50px;
 }
 
 .tab-content {
-    background-color: #0C6DFD;
+   border: solid;
+    border-color: gray;
+    border-width: .5px;
     color: white;
     border-radius: 5px;
-    padding: 7px;
+
+
+
 }
+.card-body{border-style: solid;
+    border-color: gray;
+    padding: 5px;
+    border-width: .5px;
+}
+.cardstyle{
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 0px;
+    gap: 10px;
+    border: unset;
+}
+.card-body.title1{
+background-color: #f3f2f2;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.nextstep{
+padding: 10px;
+ justify-content: end;
+    background-color: #F3F2F2FF;
+    border: solid;
+    border-color: gray;
+    border-width: .5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+.nextbtn{
+    padding: 5px;
+}
+.card1{
+    padding: 50px;
+
+}
+.lastcard {
+    position: relative;
+    left: -10px;
+    bottom: -50px;
+    justify-content: end;
+    max-width: 120%;
+
+}
+#hero{
+    background-image: url("https://images.squarespace-cdn.com/content/v1/57dda91020099eab7d71a86a/1668799555568-SDAVFVLPMWO7Q8JYY9R3/11_0344-110722-R1-V1.jpg");
+    height: 500px;
+    justify-content: center;
+    max-width: 80%;
+}
+.main{
+    justify-content: center;
+    align-items: center;
+    width: 150%;
+}
+.firsttitle{
+    background-color: #4495e5;
+    padding: 9px;
+    max-width: 130%;
+
+    position: relative;
+    left: -10px;
+    flex: 1 0 0;
+
+}
+.tab-content{
+    padding-top: 0px;
+    justify-content: center;
+    padding: 10px;
+    padding-top: 0px;
+    padding-right: 0px;
+}
+
+
 
 
 
